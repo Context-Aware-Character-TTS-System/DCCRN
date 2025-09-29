@@ -1,0 +1,14 @@
+numpy==1.26.4
+soundfile
+# librosa는 numpy<2와 잘 맞는 0.10.2.post1 권장
+librosa==0.10.2.post1
+
+# +cpu 붙이지 말고 기본 PyPI의 호환 세트 사용
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+huggingface_hub==0.13.4
+pytorch_lightning==1.9.5
+torchmetrics==0.11.4
+mayavoz
