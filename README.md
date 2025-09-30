@@ -1,7 +1,9 @@
+환경 설치(가상환경 활성화)
 .\.venv\Scripts\Activate
 pip install --upgrade pip
 pip install --no-cache-dir -r requirements.txt
 
+버젼 확인
 python -c "import numpy, torch, torchvision, torchaudio, huggingface_hub, pytorch_lightning, torchmetrics; \
 print('numpy', numpy.__version__, '| torch', torch.__version__, '| tv', torchvision.__version__, '| ta', torchaudio.__version__, '| hub', huggingface_hub.__version__, '| pl', pytorch_lightning.__version__, '| tm', torchmetrics.__version__)"
 
