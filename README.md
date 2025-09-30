@@ -1,6 +1,8 @@
 # 환경 설치(가상환경):
 .\.venv\Scripts\Activate
+
 pip install --upgrade pip
+
 pip install --no-cache-dir -r requirements.txt
 
 # 버전 확인:
