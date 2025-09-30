@@ -1,5 +1,7 @@
 # 환경 설치(가상환경):
-.\.venv\Scripts\Activate
+python -m venv .venv
+
+.\\.venv\Scripts\Activate
 
 pip install --upgrade pip
 
