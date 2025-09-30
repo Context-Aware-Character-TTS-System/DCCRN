@@ -1,4 +1,4 @@
-# 환경 설치(가상환경):
+# 환경 설치(windows가상환경):
 python -m venv .venv
 
 .\\.venv\Scripts\Activate
